@@ -1,10 +1,10 @@
 {
-  "name": "@muhlba91/niftyside-io-global-dns",
+  "name": "@niftyside/niftyside-io-global-dns",
   "version": "0.0.0",
   "description": "niftyside.io: Global DNS",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
-  "repository": "https://github.com/muhlba91/niftyside-io-global-dns",
+  "repository": "https://github.com/niftyside/niftyside-io-global-dns",
   "license": "MIT",
   "keywords": [
     "pulumi",
