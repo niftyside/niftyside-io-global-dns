@@ -29,7 +29,7 @@ export const createRecord = (
   }: {
     readonly ttl?: number;
     readonly pulumiOptions?: CustomResourceOptions;
-  }
+  },
 ): DNSRecordData => {
   const record = new gcp.dns.RecordSet(
     'gcp-dns-record-' + name.replace(/\\W+/gi, '-'),
@@ -40,7 +40,7 @@ export const createRecord = (
       rrdatas: records.map((val) => val),
       ttl: ttl,
     },
-    pulumiOptions
+    pulumiOptions,
   );
 
   return {

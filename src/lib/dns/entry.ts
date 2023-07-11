@@ -7,7 +7,7 @@ import { createRecord } from '../gcp/dns/record';
 export const createDNSEntries = async (): Promise<void> => {
   Object.entries(dnsConfig.entry).map(([name, entry]) => {
     const domainEntries = entry.domains.flatMap((data) =>
-      data.names.map((domain) => [domain, data.zone])
+      data.names.map((domain) => [domain, data.zone]),
     );
     domainEntries.map(([domain, zoneId]) =>
       createRecord(
@@ -18,8 +18,8 @@ export const createDNSEntries = async (): Promise<void> => {
         entry.values.map((value) => splitByLength(value, entry.type)),
         {
           ttl: entry.ttl,
-        }
-      )
+        },
+      ),
     );
     return name;
   });
