@@ -296,9 +296,9 @@
     read-package-json "^2.0.13"
 
 "@pulumi/pulumi@^3.0.0", "@pulumi/pulumi@^3.69.0":
-  version "3.85.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-3.85.0.tgz#e97e8011d6a58310d20110bfbeaa49c254be66af"
-  integrity sha512-eoSTEOpNk8oF2fGcYV6PL3SrbDc3iNQA402Pxq9iuWbyU4J2klzze/qgtLSPLbI24iS6eKWNcHketUQt9bWgXg==
+  version "3.86.0"
+  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-3.86.0.tgz#be81fd735246f8ec47bef55a687c37faf8c67ec5"
+  integrity sha512-A521m5y/ucwyy327tMWf+yhffS8ySRB1+maMUF0vCXLvr4ttRrYoE7iqonnfz46ScLDuFR88H3c9ZgMOMkGkMQ==
   dependencies:
     "@grpc/grpc-js" "^1.8.16"
     "@logdna/tail-file" "^2.0.6"
@@ -417,9 +417,9 @@
   integrity sha512-Y+/1vGBHV/cYk6OI1Na/LHzwnlNCAfU3ZNGrc1LdRe/LAIbdDPTTv/HU3M7yXN448aTVDq3eKRm2cg7iKLb8gw==
 
 "@types/node@>=12.12.47", "@types/node@>=13.7.0":
-  version "20.6.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.6.3.tgz#5b763b321cd3b80f6b8dde7a37e1a77ff9358dd9"
-  integrity sha512-HksnYH4Ljr4VQgEy2lTStbCKv/P590tmPe5HqOnv9Gprffgv5WXAY+Y5Gqniu0GGqeTCUdBnzC3QSrzPkBkAMA==
+  version "20.7.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.7.0.tgz#c03de4572f114a940bc2ca909a33ddb2b925e470"
+  integrity sha512-zI22/pJW2wUZOVyguFaUL1HABdmSVxpXrzIqkjsHmyUjNhPoWM1CKfvVuXfetHhIok4RY573cqS0mZ1SJEnoTg==
 
 "@types/qs@*":
   version "6.9.8"
